@@ -1,7 +1,35 @@
 body {
     background-color: whitesmoke;
+    font-family: 'Space Mono', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     color: rgb(11, 11, 141);
+    text-shadow: 1px 1px 2px #000;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.character-card > img {
+    width: 10rem;
 }
